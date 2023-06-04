@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>En-tête</title>
   <style>
     /* Styles pour l'en-tête */
     header {
@@ -11,6 +10,7 @@
       background-color: #FFA500; /* Couleur orange */
       display: flex;
       align-items: center;
+      justify-content: space-between;
       padding: 10px;
       /* Autres styles de votre choix pour l'en-tête */
       transition: background-color 1.0s ease; /* Transition de couleur */
@@ -30,6 +30,8 @@
       margin-right: 10px;
       cursor: pointer;
       text-decoration: none; /* Supprime le soulignement */
+      position: relative;
+      z-index: 2;
       /* Autres styles de votre choix pour les catégories */
     }
     
@@ -50,7 +52,7 @@
       margin-left: 10px;
       /* Autres styles de votre choix pour le bouton d'inscription */
     }
-
+    
     /* Style pour la navbar en version scrolled */
     .scrolled {
       background-color: #FFEAA6; /* Couleur FFEAA6 lors du scroll */
@@ -68,7 +70,6 @@
     };
   </script>
 </head>
-<body>
   <header id="navbar">
     <a href="index.php">
       <img id="logo" src="images/logo-header.png" alt="Logo">
@@ -84,5 +85,5 @@
       <img class="inscription-button" src="images/inscription_ordi.png" alt="Inscription">
     </a>
   </header>
-</body>
+
 </html>

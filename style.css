@@ -1,11 +1,4 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #f1f1f1;
-}
-
+@charset "UTF-8";
 .menu {
   list-style: none;
   padding: 0;
@@ -56,10 +49,11 @@ header {
 
 body {
   background: #fbfbfd;
+  margin-top: 60px;
 }
 
 .new_footer_area {
-  background: #fbfbfd;
+  background: #000000;
 }
 
 .new_footer_top {
@@ -106,7 +100,12 @@ body {
   box-shadow: none;
 }
 
-a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
   text-decoration: none;
   outline: none;
 }
@@ -204,7 +203,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #4b505e;
 }
 
@@ -333,4 +337,150 @@ a:hover {
 .separator-image {
   width: 100%;
   height: auto;
+}
+
+.index-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.index-header-logo {
+  width: 100%;
+  max-width: 200px;
+  /* Ajustez la valeur de la largeur maximale du logo selon vos besoins */
+}
+
+.index-navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.index-category {
+  color: black;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.index-category-group {
+  margin-right: 20px;
+  /* Ajustez la valeur selon l'espace souhaité */
+}
+
+.index-inscription-button {
+  width: 140px;
+  /* Ajustez la valeur de la largeur du bouton d'inscription selon vos besoins */
+  height: auto;
+}
+
+.index-search-form {
+  position: relative;
+}
+
+.index-search-input {
+  width: 350px;
+  padding-right: 30px;
+  border: none;
+  outline: none;
+  color: grey;
+  padding-left: 15px;
+}
+
+.index-search-input2 {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  background-color: #3a3a3a;
+  color: #FFA500;
+  border-radius: 20px;
+  /* Ajustez la valeur selon le degré de courbure souhaité */
+}
+
+.index-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: grey;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.index-search-bar2 {
+  padding: 10px;
+  width: 180%;
+  border-radius: 20px;
+  /* Ajustez la valeur selon le degré de courbure souhaité */
+}
+
+.index-search-button2 {
+  padding: 5px 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.index-section1 {
+  background-image: url("images/orange_background.png");
+  background-size: cover;
+}
+
+.index-section2 {
+  background-color: grey;
+  /* Autres styles de la section 2 */
+}
+
+.index-circle-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.index-text-normal {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.index-content-wrapper {
+  position: relative;
+  top: 70px;
+  left: 95px;
+}
+
+.index-content-wrapper2 {
+  position: relative;
+  left: 95px;
+  top: 15px;
+}
+
+.index-page-title {
+  text-align: left;
+  font-size: 60px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 150px;
+  margin-left: 100px;
+  line-height: 1.2;
+}
+
+.index-highlight {
+  color: #FFFFFF;
+}
+
+.allonsy {
+  width: 81px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
