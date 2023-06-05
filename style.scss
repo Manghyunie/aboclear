@@ -587,7 +587,6 @@ a:hover {
     font-weight: bold;
     color: #ffffff;
     margin-top: 150px;
-    margin-left: 100px;
     line-height: 1.2;
 }
 
@@ -608,4 +607,31 @@ a:hover {
 .ravancee-section1 {
     background-image: url("images/blue_background.png");
     background-size: cover;
+}
+
+.ravancee-page-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 150px;
+    line-height: 1.2;
+}
+
+.ravancee-search-bar2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .ravancee-search-input2 {
+    width: 600px;
+    padding: 5px;
+    border: none;
+    background-color: #3a3a3a;
+    color: #00fbff;
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-right: 5px;
+    /* Ajustez la valeur selon le degré de courbure souhaité */
 }

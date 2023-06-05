@@ -11,7 +11,7 @@
     #navbar {
       position: sticky;
       top: 0;
-      background-color: #ffad42;
+      background-color: #FFFFFF;
       padding: 10px;
       transition: background-color 0.3s ease;
     }
@@ -50,7 +50,7 @@
     <div>
       <a class="index-category" href="connexion.php"><strong>Connexion</strong></a>
       <a href="inscription.php">
-        <img class="index-inscription-button" src="images/inscription_orange.png" alt="Inscription">
+        <img class="index-inscription-button" src="images/inscription_blue.png" alt="Inscription">
       </a>
     </div>
   </div>
@@ -58,7 +58,15 @@
 <body>
 
   <div class="container-fluid ravancee-section1" style="position: relative; overflow: hidden;">
-  <br><br><br><br><br><br><br><br><br>
+  <div class="ravancee-page-title">
+      <span class="index-highlight">Recherche </span>avancée<br>
+    </div><br>
+    <form class="ravancee-search-bar2" action="rechercher.php" method="GET">
+        <input type="text" name="query" class="ravancee-search-input2 rounded-pill" placeholder="Un abonnement...">
+        <i class="fas fa-search index-search-icon"></i>
+        <button type="submit" class="index-search-button2"><strong class="allonsy">Allons-y !!</strong>
+        </button>
+      </form><br><br><br><br><br><br><br><br>
   </div>
 </body>
 </html>
