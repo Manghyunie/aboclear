@@ -27,50 +27,95 @@
     }
 
     .main-div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      justify-content: center;
-      align-items: center;
-      width: 300px;
-      height: 300px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
 
-    .row {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-    }
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 120%;
+}
 
-    .first-div {
-      flex: 1;
-      padding: 10px;
-      border-radius: 10px;
-      background-color: white;
-      margin-bottom: 10px;
-    }
+.first-div,
+.second-div {
+  padding: 20px;
+  text-align: left;
+  border-radius: 50px;
+  background-color: white;
+  margin: 10px;
+  position: relative;
+}
 
-    .second-div {
-      flex: 2;
-      padding: 10px;
-      border-radius: 10px;
-      background-color: white;
-      margin-bottom: 10px;
-    }
+.first-div {
+  flex: 2;
+  width: 70%; /* Réduire la largeur horizontale */
+}
 
-    .nested-div {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-    }
+.second-div {
+  flex: 1;
+  width: 50%; /* Réduire la largeur horizontale */
+}
 
-    .nested-div > div {
-      flex: 1;
-      padding: 10px;
-      border-radius: 10px;
-      background-color: white;
-      margin-bottom: 10px;
-    }
+.first-div strong,
+.second-div strong {
+  font-size: 28px;
+}
+
+.first-div p,
+.second-div p {
+  font-size: 14px;
+  position: relative;
+}
+
+.sub-div {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.sub-div p {
+  margin: 0;
+}
+
+.first-div img,
+.second-div img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 40%;
+  height: auto;
+}
+.ajust {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 55% !important;
+  height: auto;
+}
+.ajust2 {
+  position: absolute;
+  top: 50px !important;
+  right: 10px !important;
+  max-width: 50% !important;
+  height: auto;
+}
+.ajust3 {
+  position: absolute;
+  top: 30px !important;
+  right: 25px !important;
+  max-width: 40% !important;
+  height: auto;
+}
+
+
+
   </style>
 
 
@@ -115,6 +160,7 @@
       <span class="index-text-normal">Comparateur mis à jour <strong>hebdomadairement</strong></span>
     </div>
     <div class="index-page-title">
+      
       Recherchez<br>
       <span class="index-highlight">l'abonnement</span> qui vous<br>
       intéresse !
@@ -146,31 +192,50 @@
       De la <span class="index-highlight2">sécurité</span>, mais surtout de la<br>
       <span class="index-highlight2">confiance !</span>
     </div>
+    <br><br><br><br><br><br><br><br><br>
     <div class="main-div">
-    <div class="row">
-      <div class="first-div">
-        <p>Il y a du texte ici</p>
-      </div>
-      <div class="second-div">
-        <p>Blabla</p>
-      </div>
+  <div class="row">
+    <div class="first-div">
+    <img class="ajust" src="images/categorie1.png" alt="Image 1">
+      <p><strong>Des conditions<br>
+        totalement<br>
+        transparentes !</strong></p><br>
+      <p>On met les points sur les i, les barres sur les T,<br>
+        franchement on est réglo mais genre plus réglo<br>
+        tu meurs</p><br>
+      <p><strong>En savoir plus -></strong></p>
     </div>
-    <div class="row">
-      <div class="second-div">
-        <div class="nested-div">
-          <div>
-            <p>Du txt</p>
-          </div>
-          <div>
-            <p>La</p>
-          </div>
-        </div>
-      </div>
-      <div class="first-div">
-        <p>Et la aussi</p>
-      </div>
+    <div class="second-div">
+    <img src="images/categorie2.png" alt="Image 2">
+    <br><br><p><strong>Vos données<br>
+        sécurisées sur<br>
+        nos serveurs</strong></p>
+      <p>Lorem ipsum dolor sit amet, consectetur<br>
+        adipis elit. Sit enim ne</p>
+      <p><strong>En savoir plus -></strong></p>
     </div>
   </div>
+  <div class="row">
+    <div class="second-div">
+    <img class="ajust2" src="images/categorie3.png" alt="Image 3">
+    <br><br><br><br><p><strong>On vous<br>
+        fidélise mais de<br>
+        façon cool</strong></p>
+      <p>Lorem ipsum dolor sit amet, consectetur<br>
+        adipis elit. Sit enim ne</p>
+      <p><strong>En savoir plus -></strong></p>
+    </div>
+      <div class="first-div">
+      <img class="ajust3" src="images/categorie4.png" alt="Image 4">
+      <br><br><br><br><p><strong>Réveillez-vous sur une<br>
+          planète de fun</strong></p><br>
+        <p>On met les points sur les i, les barres sur les T,<br>
+          franchement on est réglo mais genre plus réglo tu meurs</p><br>
+        <p><strong>En savoir plus -></strong></p>
+      </div>
+  </div>
+</div>
+
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </div>
   <img class="index-separator-image" src="images/separator.png">
