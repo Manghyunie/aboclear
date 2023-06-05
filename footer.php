@@ -49,7 +49,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer_bg">
                 </div>
             </div>
         </footer>

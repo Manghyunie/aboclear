@@ -360,14 +360,26 @@ a:hover {
 }
 
 .index-category {
-  color: black;
+  color: black !important;
   margin-right: 10px;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.index-category:hover {
+  background-color: transparent !important;
+  text-decoration: none !important;
+}
+
+.index-category:active {
+  background-color: transparent !important;
+  text-decoration: none !important;
+  outline: none !important;
 }
 
 .index-category-group {
   margin-right: 20px;
+  text-decoration: none;
   /* Ajustez la valeur selon l'espace souhaité */
 }
 
@@ -391,12 +403,13 @@ a:hover {
 }
 
 .index-search-input2 {
-  width: 200px;
+  width: 600px;
   padding: 5px;
   border: none;
   background-color: #3a3a3a;
   color: #FFA500;
   border-radius: 20px;
+  padding-left: 15px;
   /* Ajustez la valeur selon le degré de courbure souhaité */
 }
 
@@ -432,7 +445,8 @@ a:hover {
 
 .index-section2 {
   background-color: grey;
-  /* Autres styles de la section 2 */
+  margin-bottom: -35px;
+  background: linear-gradient(black, lightblue); /* Dégradé de couleur du noir au bleu clair */
 }
 
 .index-circle-button {
@@ -483,4 +497,49 @@ a:hover {
   font-size: 15px;
   line-height: 26px;
   color: #FFFFFF;
+}
+
+.index-custom-button {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.index-custom-button:hover {
+  background-color: #f5f5f5;
+  color: black;
+  text-decoration: none;
+}
+
+.index-separator-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.index-footer-container {
+  margin-top: -15px; /* Ajustez la valeur en fonction de vos besoins */
+  /* Autres styles pour le footer */
+}
+
+.index-page-title2 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 150px;
+  margin-left: 100px;
+  line-height: 1.2;
+}
+
+.index-highlight2 {
+  color: #92CADB;
 }/*# sourceMappingURL=style.css.map */
