@@ -68,5 +68,11 @@
         </button>
       </form><br><br><br><br><br><br><br><br>
   </div>
+  <img class="index-separator-image" src="images/separator.png">
+  <div class="index-footer-container">
+    <?php include 'footer.php' ?>
+  </div>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

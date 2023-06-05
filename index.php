@@ -244,16 +244,6 @@
   </div>
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    window.addEventListener('scroll', function() {
-      var header = document.getElementById('navbar');
-      if (window.scrollY > 0) {
-        header.classList.add('scrolled');
-      } else {
-        header.classList.remove('scrolled');
-      }
-    });
-  </script>
 </body>
 
 </html>
