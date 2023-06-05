@@ -63,7 +63,7 @@
     </div><br>
     <form class="ravancee-search-bar2" action="rechercher.php" method="GET">
         <input type="text" name="query" class="ravancee-search-input2 rounded-pill" placeholder="Un abonnement...">
-        <i class="fas fa-search index-search-icon"></i>
+        
         <button type="submit" class="index-search-button2"><strong class="allonsy">Allons-y !!</strong>
         </button>
       </form><br><br><br><br><br><br><br><br>
