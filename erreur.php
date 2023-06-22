@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +8,22 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
-    <?php include 'css/scrollblue.css' ?>#navbar {
+    <?php include 'css/scrollblue.css' ?>
+    #navbar {
       position: sticky;
       top: 0;
       background-color: #FFFFFF;
       padding: 10px;
       transition: background-color 0.3s ease;
     }
-
     header.scrolled {
       background-color: #FFEAA6;
     }
-
     body {
       margin: 0;
       padding: 0;
     }
+
     .ravancee-dropdowns {
     display: flex;
     align-items: center;
@@ -36,10 +35,7 @@
   border-radius: 20px;
   padding: 5px 10px; /* Ajoutez cette ligne pour augmenter la taille du bouton */
 }
-  
   </style>
-
-
 
 
 
@@ -72,19 +68,20 @@
     </div>
   </div>
 </header>
-
 <body>
-
   <div class="container-fluid ravancee-section1" style="position: relative; overflow: hidden;">
-    <div class="ravancee-page-title">
-      <span class="index-highlight">Recherche </span>avancée<br>
-    </div><br>
+  <div class="ravancee-page-title">
+      <span class="index-highlight">Oops ! </span>Il semble que nous<br>
+      n'ayons pas encore ajouté<br>
+      cet abonnement<br></span>
+    </div><br><br><br>
     <form class="ravancee-search-bar2" action="rechercher.php" method="GET">
-      <input type="text" name="query" class="ravancee-search-input2 rounded-pill" placeholder="Un abonnement...">
-      <button type="submit" class="index-search-button2"><strong class="allonsy">Allons-y !!</strong>
-      </button>
-    </form><br>
-    <div class="ravancee-dropdowns" style="display: flex;">
+
+        <input type="text" name="query" class="ravancee-search-input2 rounded-pill" placeholder="Un abonnement...">
+        
+        <button type="submit" class="index-search-button2"><strong class="allonsy">Allons-y !!</strong>
+        </button>
+      </form><br><div class="ravancee-dropdowns" style="display: flex;">
   <div style="margin-left: 265px;">
   <select class="ravancee-dropdown">
     <option value="popularite">Popularité</option>
@@ -119,8 +116,7 @@
       window.location.href = 'spotify.php';
     }
   });
-</script>
-    <br><br><br><br><br><br><br><br>
+</script><br><br><br><br><br><br><br><br>
   </div>
   <img class="index-separator-image" src="images/separator.png">
   <div class="index-footer-container">
@@ -129,5 +125,4 @@
 
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

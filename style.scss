@@ -594,6 +594,10 @@ a:hover {
     color: #92CADB;
 }
 
+.index-highlight-blue {
+    color: #107695;
+}
+
 .index-page-title-category {
     text-align: left;
     font-size: 60px;
@@ -636,3 +640,52 @@ a:hover {
     margin-right: 5px;
     /* Ajustez la valeur selon le degré de courbure souhaité */
 }
+
+.spotify-search-bar {
+    flex: 1;
+    border-radius: 20px;
+    overflow: hidden;
+    border: none;
+  }
+
+  .spotify-search-bar form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .spotify-search-bar input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .spotify-index-search-button2 {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFCA3A;
+    color: #FFF;
+    cursor: pointer;
+  }
+
+  .spotify-dropdowns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+  }
+
+  .spotify-dropdown {
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .erreur-section1 {
+    background-image: url("images/blue_background.png");
+    background-size: cover;
+    margin-bottom: -22px;
+}
+

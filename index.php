@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
+    <?php include 'css/scrollorange.css' ?>
     #navbar {
       position: sticky;
       top: 0;
-      background-color: #ffad42;
+      background-color: #f3d178;
       padding: 10px;
       transition: background-color 0.3s ease;
     }
@@ -94,23 +95,30 @@
 }
 .ajust {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px !important;
+  right: 20px !important;
   max-width: 55% !important;
   height: auto;
 }
 .ajust2 {
   position: absolute;
-  top: 50px !important;
+  top: 110px !important;
   right: 10px !important;
-  max-width: 50% !important;
+  max-width: 36% !important;
   height: auto;
 }
 .ajust3 {
   position: absolute;
-  top: 30px !important;
-  right: 25px !important;
-  max-width: 40% !important;
+  top: 15px !important;
+  right: 50px !important;
+  max-width: 34% !important;
+  height: auto;
+}
+.ajust4 {
+  position: absolute;
+  top: 15px !important;
+  right: 10px !important;
+  max-width: 30% !important;
   height: auto;
 }
 
@@ -192,46 +200,50 @@
       De la <span class="index-highlight2">sécurité</span>, mais surtout de la<br>
       <span class="index-highlight2">confiance !</span>
     </div>
-    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="main-div">
   <div class="row">
     <div class="first-div">
-    <img class="ajust" src="images/categorie1.png" alt="Image 1">
-      <p><strong>Des conditions<br>
-        totalement<br>
-        transparentes !</strong></p><br>
-      <p>On met les points sur les i, les barres sur les T,<br>
-        franchement on est réglo mais genre plus réglo<br>
-        tu meurs</p><br>
-      <p><strong>En savoir plus -></strong></p>
+    <img class="ajust" src="images/Personnage_main_en_air.png" alt="Image 1">
+    <br><br><br><p><strong>Comment les<br>
+      <span class="index-highlight-blue">abonnements</span><br>
+      sont-ils comparés ?</strong></p><br>
+      <p>Aboclear vous permet de comparer différents<br>
+      abonnements d’une même thématique. A vous de<br>
+      sélectionner deux marques pour les mettre en parallèle et<br>
+      avoir un aperçu global de leurs différences. Notre comparateur<br>
+      est optimisé et construit pour vous faciliter la tâche.</p><br>
+      <p><strong>En savoir plus  ➜</strong></p>
     </div>
     <div class="second-div">
-    <img src="images/categorie2.png" alt="Image 2">
-    <br><br><p><strong>Vos données<br>
-        sécurisées sur<br>
-        nos serveurs</strong></p>
-      <p>Lorem ipsum dolor sit amet, consectetur<br>
-        adipis elit. Sit enim ne</p>
-      <p><strong>En savoir plus -></strong></p>
+    <img class="ajust2" src="images/Personnage_jambe_croisé.png" alt="Image 2">
+    <br><p><strong>Quels sont les termes<br>
+    et les conditions<br>
+    de chaque abonnement ?</strong></p>
+      <p>C’est l’objectif d’Aboclear !<br>
+      Vous permettre d’avoir une fiche<br>
+      résumée de chaque abonnement et de ses conditions d’utilisation. Chaque abonnement est analysé et nous mettons en avant les points importants qu’il faut connaître.</p>
+      <br><p><strong>En savoir plus  ➜</strong></p>
     </div>
   </div>
   <div class="row">
     <div class="second-div">
-    <img class="ajust2" src="images/categorie3.png" alt="Image 3">
-    <br><br><br><br><p><strong>On vous<br>
-        fidélise mais de<br>
-        façon cool</strong></p>
-      <p>Lorem ipsum dolor sit amet, consectetur<br>
-        adipis elit. Sit enim ne</p>
-      <p><strong>En savoir plus -></strong></p>
+    <img class="ajust3" src="images/Personnage_pouce_en_l_air.png" alt="Image 3">
+    <br><br><br><br><p><strong>Quels sont<br>
+    les avis utilisateurs sur les<br>
+    abonnements ?
+</strong></p>
+      <p>C’est sur ces avis que nous nous basons pour vous faire des retours. Nous utilisons des avis certifiés et sélectionnons les plus construits pour les mettre en avant sur la fiche résumée. Ainsi, vous êtes certains d’avoir des retour et de vous faire un avis juste.</p>
+      <p><strong>En savoir plus  ➜</strong></p>
     </div>
       <div class="first-div">
-      <img class="ajust3" src="images/categorie4.png" alt="Image 4">
-      <br><br><br><br><p><strong>Réveillez-vous sur une<br>
-          planète de fun</strong></p><br>
-        <p>On met les points sur les i, les barres sur les T,<br>
-          franchement on est réglo mais genre plus réglo tu meurs</p><br>
-        <p><strong>En savoir plus -></strong></p>
+      <img class="ajust4" src="images/personnage_montre.png" alt="Image 4">
+      <br><br><br><br><p><strong>Y a t’il des offres spéciales,<br>
+      remises ou promotion en<br>
+      cours sur mes abonnements ?</strong></p><br>
+        <p>Les offres spéciales sur certains abonnements sont visibles sur la fiche résumé de l'abonnement en question. La durée de l’offre, ce qu'elle entend et les conditions sont indiquées juste en dessous. Si vous souhaitez commencer un nouvel abonnement, rendez-vous sur la page “offres” qui regroupe les promotions du moment et qui sont, pour certaines, exclusives grâce à Aboclear.
+</p><br>
+        <p><strong>En savoir plus  ➜</strong></p>
       </div>
   </div>
 </div>
