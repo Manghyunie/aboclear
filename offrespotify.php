@@ -72,9 +72,7 @@ require('cnx/cnx.php');
 
         .image img {
             width: 200px;
-            /* Définissez la largeur souhaitée */
             height: auto;
-            /* Maintient le rapport hauteur/largeur */
         }
 
         .buttons {
@@ -117,13 +115,11 @@ require('cnx/cnx.php');
 
         .text-container .streaming {
             background-color: #66BB6A;
-            /* Couleur verte pour "streaming" */
             color: white;
         }
 
         .text-container .musique {
             background-color: #FF4081;
-            /* Couleur rose pour "musique" */
             color: white;
         }
 
@@ -139,11 +135,8 @@ require('cnx/cnx.php');
             background-color: black;
             padding: 50px;
             display: flex;
-            /* Ajout de la propriété display: flex */
             justify-content: center;
-            /* Centre les éléments horizontalement */
             align-items: center;
-            /* Centre les éléments verticalement */
         }
 
         .white-square {
@@ -285,7 +278,7 @@ $row = $result->fetch(PDO::FETCH_ASSOC);
                             <h3>Spotify</h3>
                             <p>- Vaste bibliotheque musicale<br>
                                 - Recommendations basees sur les gouts de l'utilisateur<br>
-                            - bonne qualité audio</p>
+                                - bonne qualité audio</p>
                         </div>
                     </div>
                     <div class="button">
@@ -304,7 +297,7 @@ $row = $result->fetch(PDO::FETCH_ASSOC);
                             <h3>Deezer</h3>
                             <p>- La bibliotheque peut varier selon la region<br>
                                 - Recommendations moins intuitives mais presentes<br>
-                            - Experience d'ecoute plus immersive</p>
+                                - Experience d'ecoute plus immersive</p>
                         </div>
                     </div>
                     <div class="button">

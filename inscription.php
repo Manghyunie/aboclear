@@ -22,15 +22,14 @@ require('cnx/cnx.php');
 </head>
 
 <style>
-<?php include 'css/scrollblue.css' ?>
-  .container {
+  <?php include 'css/scrollblue.css' ?>.container {
     display: flex;
     align-items: center;
   }
+
   .imgcnx {
     float: left;
     width: 50%;
-    /* Vous pouvez ajuster la largeur selon vos besoins */
   }
 
   .cnxqst {
@@ -42,9 +41,7 @@ require('cnx/cnx.php');
 
   .cnxqst img {
     width: 140px;
-    /* Ajustez la largeur selon vos besoins */
     height: auto;
-    /* La hauteur sera ajustée automatiquement en proportion */
   }
 
   .cnxqst input[type="text"],
@@ -73,7 +70,6 @@ require('cnx/cnx.php');
 
   .cnxqst h1 {
     font-size: 36px;
-    /* Ajustez la taille de police selon vos besoins */
     font-weight: bold;
   }
 
@@ -103,7 +99,7 @@ require('cnx/cnx.php');
 
   <div container>
     <div class="imgcnx">
-    <a href="index.php"><img src="images/logoblack.png" alt="Logo" class="logo"></a>
+      <a href="index.php"><img src="images/logoblack.png" alt="Logo" class="logo"></a>
       <img src="images/imagecnx.png" alt="">
     </div>
     <div class="cnxqst">
@@ -146,8 +142,7 @@ require('cnx/cnx.php');
 
     $query = $bdd->prepare("INSERT INTO users (email, password, nomprenom) VALUES (?, ?, ?)");
     $query->execute([$email, $password, $nomprenom]);
-var_dump($query);
-    // Redirection vers une autre page après l'insertion des données
+    var_dump($query);
     header("Location: index.php");
     exit;
   }

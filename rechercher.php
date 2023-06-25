@@ -2,7 +2,6 @@
 if (isset($_GET['query'])) {
   $query = $_GET['query'];
 
-  // Liste des correspondances possibles
   $correspondances = array(
     'spotify',
     'google',
@@ -12,7 +11,6 @@ if (isset($_GET['query'])) {
   $meilleureCorrespondance = '';
   $distanceMinimale = PHP_INT_MAX;
 
-  // Recherche de la meilleure correspondance
   foreach ($correspondances as $correspondance) {
     $distance = levenshtein($query, $correspondance);
     if ($distance < $distanceMinimale) {
@@ -21,12 +19,10 @@ if (isset($_GET['query'])) {
     }
   }
 
-  // Vérification de la correspondance la plus proche
-  if ($distanceMinimale <= 2) { // Vous pouvez ajuster cette valeur selon votre besoin
+  if ($distanceMinimale <= 2) {
     header("Location: $meilleureCorrespondance.php");
     exit;
   } else {
-    // Redirection vers la page d'erreur
     header('Location: erreur.php');
     exit;
   }

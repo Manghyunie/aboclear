@@ -19,4 +19,3 @@ function Logout()
                 header("Location:Index.php");
                 exit;
 }
-?>

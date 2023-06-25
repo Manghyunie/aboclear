@@ -25,18 +25,18 @@
       margin: 0;
       padding: 0;
     }
-    .ravancee-dropdowns {
-    display: flex;
-    align-items: center;
-    flex: 1;
-  }
 
-  .ravancee-dropdown {
-  margin-left: 10px;
-  border-radius: 20px;
-  padding: 5px 10px; /* Ajoutez cette ligne pour augmenter la taille du bouton */
-}
-  
+    .ravancee-dropdowns {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+
+    .ravancee-dropdown {
+      margin-left: 10px;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
   </style>
 
 
@@ -85,41 +85,41 @@
       </button>
     </form><br>
     <div class="ravancee-dropdowns" style="display: flex;">
-  <div style="margin-left: 265px;">
-  <select class="ravancee-dropdown">
-    <option value="popularite">Popularité</option>
-    <option value="nom">4-5⭐</option>
-    <option value="date">3-4⭐</option>
-    <option value="date">- 3⭐</option>
-  </select>
-  <select id="categorie-select" class="ravancee-dropdown">
-    <option value="nomcat">Catégorie</option>
-    <option value="categorie1">Streaming</option>
-    <option value="categorie2">Musique</option>
-    <option value="categorie3">Sport</option>
-    <option value="categorie4">Restauration</option>
-    <option value="categorie5">Gaming</option>
-    <option value="categorie6">Transport</option>
-    <option value="categorie7">Téléphonie</option>
-  </select>
-  <select class="ravancee-dropdown">
-    <option value="prix">Prix</option>
-    <option value="0-50">0 - 10 €</option>
-    <option value="50-100">10 - 20 €</option>
-    <option value="100-200">30 - 50 €</option>
-    <option value="100-200">50 - 100 €</option>
-  </select>
-  </div>
-</div>
-<script>
-  var selectElement = document.getElementById('categorie-select');
-  selectElement.addEventListener('change', function() {
-    var selectedValue = selectElement.value;
-    if (selectedValue === 'categorie2') {
-      window.location.href = 'spotify.php';
-    }
-  });
-</script>
+      <div style="margin-left: 265px;">
+        <select class="ravancee-dropdown">
+          <option value="popularite">Popularité</option>
+          <option value="nom">4-5⭐</option>
+          <option value="date">3-4⭐</option>
+          <option value="date">- 3⭐</option>
+        </select>
+        <select id="categorie-select" class="ravancee-dropdown">
+          <option value="nomcat">Catégorie</option>
+          <option value="categorie1">Streaming</option>
+          <option value="categorie2">Musique</option>
+          <option value="categorie3">Sport</option>
+          <option value="categorie4">Restauration</option>
+          <option value="categorie5">Gaming</option>
+          <option value="categorie6">Transport</option>
+          <option value="categorie7">Téléphonie</option>
+        </select>
+        <select class="ravancee-dropdown">
+          <option value="prix">Prix</option>
+          <option value="0-50">0 - 10 €</option>
+          <option value="50-100">10 - 20 €</option>
+          <option value="100-200">30 - 50 €</option>
+          <option value="100-200">50 - 100 €</option>
+        </select>
+      </div>
+    </div>
+    <script>
+      var selectElement = document.getElementById('categorie-select');
+      selectElement.addEventListener('change', function() {
+        var selectedValue = selectElement.value;
+        if (selectedValue === 'categorie2') {
+          window.location.href = 'spotify.php';
+        }
+      });
+    </script>
     <br><br><br><br><br><br><br><br>
   </div>
   <img class="index-separator-image" src="images/separator.png">

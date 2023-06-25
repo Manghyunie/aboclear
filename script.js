@@ -10,9 +10,8 @@
 })*/
 console.log("Le script JS est exécuté !");
 
-// JavaScript is used for toggling loading state
 var form = document.querySelector('form');
 form.onsubmit = function (event) {
-    event.preventDefault();
-    form.classList.add('signed');
+  event.preventDefault();
+  form.classList.add('signed');
 };
