@@ -33,9 +33,7 @@
 
     .subscription-list {
       max-height: 400px;
-      /* Hauteur maximale de la liste, ajustez-la selon vos besoins */
       overflow-y: auto;
-      /* Active le défilement vertical si nécessaire */
     }
 
     .subscription-content {
@@ -48,7 +46,6 @@
 
     .subscription-image img {
       width: 100px;
-      /* Ajustez la taille de l'image selon vos besoins */
       height: auto;
       margin-right: 10px;
     }
@@ -74,7 +71,7 @@
 
     .spotify-container {
       margin-left: 70px;
-      /* Ajustez la valeur en fonction de vos besoins */
+      
       margin-right: 400px;
     }
 
@@ -99,7 +96,7 @@
       border: none;
       cursor: pointer;
       border-radius: 20px;
-      /* Autres styles personnalisés */
+     
     }
 
     .subscription-button {
@@ -113,9 +110,9 @@
     }
 
     .subscription-button a {
-  text-decoration: none; /* Supprime le soulignement */
-  outline: none; /* Supprime la mise en surbrillance */
-  background-color: transparent; /* Désactive l'effet d'illumination */
+  text-decoration: none; 
+  outline: none; 
+  background-color: transparent; 
 }
 
 
@@ -187,9 +184,7 @@
     </div>
   </div>
 
-  <!-- Nouvelle section avec la liste d'abonnements -->
   <div class="spotify-container subscription-list">
-    <!-- Première abonnement -->
     <a href="https://www.radiofrance.fr/mouv">
       <img class="ajust2" src="images/addmouv.png">
     </a>
@@ -210,7 +205,6 @@
     </div>
 
 
-    <!-- Deuxième abonnement -->
     <div class="subscription-item">
       <div class="subscription-content">
         <div class="subscription-image">
@@ -227,7 +221,6 @@
       </div>
     </div>
 
-    <!-- Troisième abonnement -->
     <div class="subscription-item">
       <div class="subscription-content">
         <div class="subscription-image">
@@ -260,7 +253,6 @@
       </div>
     </div>
   </div>
-  <!-- Fin de la section de la liste d'abonnements -->
 
   <img class="index-separator-image" src="images/separator.png">
   <div class="index-footer-container">
